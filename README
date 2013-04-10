@@ -27,3 +27,13 @@ In this little demo are used 5 CLI programs :
 
 * EpicEditor
 * JQuery
+
+How to use it
+=============
+
+sudo apt-get install imagemagick pandoc texlive texlive-xetex
+sudo pip install flask sh
+
+    git clone git@github.com/phisto/beamerLive.git
+    cd beamerLive
+    python server.py 
