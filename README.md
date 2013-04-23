@@ -37,11 +37,11 @@ How to use it
     sudo apt-get install imagemagick pandoc texlive texlive-xetex
     sudo pip install flask sh
 
-    git clone git@github.com/phisto/beamerLive.git
+    git clone https://github.com/phisto/beamerLive.git
     cd beamerLive
     python server.py
 
-And then goes to your favorite browser at localhost:8000 and start editing.
+And then goes to your favorite browser at localhost:5000 and start editing.
 The presentation will be rendered when you stop typing for 5 seconds.
 You can see the pdf version of the presentation in the directory where you
 started the server as temp.pdf
